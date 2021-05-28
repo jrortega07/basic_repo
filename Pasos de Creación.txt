@@ -1,0 +1,19 @@
+Crear un repo local también llamado basic_repo
+		mkdir basic_repo
+
+Agregar, confirmar y empujar los cambios a GitHub
+		git add index.html
+		git commit -m "se crea index.html"
+		git add style.css
+		git commit -m "se crea style.css"
+		git remote add origin https://github.com/jrortega07/basic_repo
+		git push origin master
+
+Hacer algunos cambios más en la copia local y empujarlos a GitHub
+		git add index.html
+		git commit -m "se modifica index.html"
+		git add style.css
+		git commit -m "se modifica style.css"
+		git remote add origin https://github.com/jrortega07/basic_repo
+		git push origin master
+		
