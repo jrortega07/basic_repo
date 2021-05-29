@@ -1,0 +1,9 @@
+# ignora cualquier archivo llamado "secret.js"
+secret.js
+# ignora cualquier directorio llamado package ubicado en la raíz de tu directorio de trabajo"
+/package/
+# ignora cualquier archivo con extensión .txt
+*.txt
+# ignora cualquier archivo o directorio que comienza con "log", como cache-file-01, cached_assets/, etc.
+log*
+
